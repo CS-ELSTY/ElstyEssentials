@@ -1,0 +1,24 @@
+{
+  "resource_pack_name": "elsty",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "wg:basic_key": {
+      "textures": "textures/items/paper.png"
+    },
+    "wg:common_key": {
+      "textures": "textures/items/paper.png"
+    },
+    "wg:epic_key": {
+      "textures": "textures/items/paper.png"
+    },
+    "wg:legendary_key": {
+      "textures": "textures/items/paper.png"
+    },
+    "wg:overpower_key": {
+      "textures": "textures/items/paper.png"
+    },
+    "wg:daily_key": {
+      "textures": "textures/items/paper.png"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+    "namespace": "ccc",
+    "commands_stack": {
+      "type": "stack_panel",
+      "size": [
+        "100%",
+        "100%c"
+      ],
+      "orientation": "vertical",
+      "$broad|default": true,
+      "$commands|default": [],
+      "controls": "$commands"
+    },
+    "custom_command_item_overview": {
+      "type": "panel",
+      "size": [
+        "100%",
+        "100%c"
+      ],
+      "$command_length|default": 4,
+      "$command|default": "test",
+      "$arg1|default": "",
+      "$arg2|default": "",
+      "$arg3|default": "",
+      "controls": [
+        {
+          "broad": {
+            "type": "panel",
+            "size": [
+              "100%",
+              "100%c"
+            ],
+            "controls": [
+              {
+                "text": {
+                  "type": "label",
+                  "localize": false,
+                  "size": [
+                    "100%",
+                    "default"
+                  ],
+                  "$command_with": "($command_prefix + $command)",
+                  "bindings": [
+                    {
+                      "binding_type": "view",
+                      "source_control_name": "text_box_message",
+                      "source_property_name": "#item_name",
+                      "target_property_name": "#search"
+                    },
+                    {
+                      "binding_type": "view",
+                      "source_property_name": "#default_search",
+                      "target_property_name": "#search",
+                      "binding_condition": "once"
+                    },
+                    {
+                      "binding_type": "view",
+                      "source_property_name": "(not (#search = ''))",
+                      "target_property_name": "#is_not_empty"
+                    },
+                    {
+                      "binding_type": "view",
+                      "source_property_name": "(not (($command_with - #search) = $command_with))",
+                      "target_property_name": "#is_being_searched"
+                    },
+                    {
+                      "binding_type": "view",
+                      "source_property_name": "($command_with = (('%.' +( $command_length + 1) + 's') * #search))",
+                      "target_property_name": "#is_equal"
+                    },
+                    {
+                      "binding_type": "view",
+                      "source_property_name": "((#is_being_searched or (not (#is_not_empty))) and (not (#is_equal)))",
+                      "target_property_name": "#visible"
+                    },
+                    {
+                      "binding_type": "view",
+                      "source_control_name": "text_box_message",
+                      "source_property_name": "#item_name",
+                      "target_property_name": "#search_text"
+                    },
+                    {
+                      "binding_type": "view",
+                      "source_property_name": "(#search_text + '§7' + (($command_prefix + $command) - #search_text))",
+                      "target_property_name": "#text"
+                    }
+                  ],
+                  "text": "#text"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "not_broad": {
+            "type": "panel",
+            "size": [
+              "100%",
+              "100%c"
+            ],
+            "controls": [
+              {
+                "text": {
+                  "type": "label",
+                  "localize": false,
+                  "size": [
+                    "100%",
+                    "default"
+                  ],
+                  "bindings": [
+                    {
+                      "binding_type": "view",
+                      "source_control_name": "text_box_message",
+                      "source_property_name": "(#item_name - $command_prefix)",
+                      "target_property_name": "#search"
+                    },
+                    {
+                      "binding_type": "view",
+                      "source_property_name": "($command = (('%.' + $command_length + 's') * #search))",
+                      "target_property_name": "#visible"
+                    }
+                  ],
+                  "text": "( $command_prefix + $command + ' ' +  $arg1 + ' ' +  $arg2 + ' ' + $arg3)"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }

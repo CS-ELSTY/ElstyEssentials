@@ -1,0 +1,255 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "font/glyph_00.png",
+      "chars": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_01.png",
+      "chars": [
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_02.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_03.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_04.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_05.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_06.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_07.png",
+      "chars": [
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_0E.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_10.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_1D.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_1E.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_20.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_21.png",
+      "chars": [
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_22.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_23.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_24.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_25.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_26.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_27.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_28.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_2A.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_2B.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_2C.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_2E.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_30.png",
+      "ascent": 7,
+      "chars": [
+        " !\"#$%&'()*+,-./0123456789:;<=>?",
+        "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_",
+        "`abcdefghijklmnopqrstuvwxyz{|}~⌂",
+        "▒▓│┤╡╢╖╕┣╃╄╇┳┧╂╊╏┾┟╁╀╇┓┗┛┏╋┃┇┳┿"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_A6.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_A7.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_E1.png",
+      "chars": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_E8.png",
+      "chars": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_FB.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/glyph_FE.png",
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font/default8.png",
+      "ascent": 8,
+      "chars": [
+        " !\"#$%&'()*+,-./0123456789:;<=>?",
+        "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_",
+        "`abcdefghijklmnopqrstuvwxyz{|}~⌂",
+        "▒▓│┤╡╢╖╕┣╃╄╇┳┧╂╊╏┾┟╁╀╇┓┗┛┏╋┃┇┳┿"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Elsty Essentials Resources",
+    "description": "Resource pack for Elsty Essentials addon",
+    "uuid": "976a5136-1390-4484-a7ca-b3ec5441b739",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 10]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "dae5e2d1-597d-495b-a2a2-4f9c7f2f39c0",
+      "version": [1, 0, 0]
+    }
+  ]
+}

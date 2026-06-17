@@ -1,0 +1,222 @@
+// shopTextures.js - Mapping texture untuk semua item
+export const ITEM_TEXTURES = {
+    // Tools - Pickaxes
+    "minecraft:wooden_pickaxe": "textures/items/wood_pickaxe",
+    "minecraft:stone_pickaxe": "textures/items/stone_pickaxe",
+    "minecraft:iron_pickaxe": "textures/items/iron_pickaxe",
+    "minecraft:golden_pickaxe": "textures/items/gold_pickaxe",
+    "minecraft:diamond_pickaxe": "textures/items/diamond_pickaxe",
+
+    // Tools - Axes
+    "minecraft:wooden_axe": "textures/items/wood_axe",
+    "minecraft:stone_axe": "textures/items/stone_axe",
+    "minecraft:iron_axe": "textures/items/iron_axe",
+    "minecraft:golden_axe": "textures/items/gold_axe",
+    "minecraft:diamond_axe": "textures/items/diamond_axe",
+
+    // Tools - Swords
+    "minecraft:wooden_sword": "textures/items/wood_sword",
+    "minecraft:stone_sword": "textures/items/stone_sword",
+    "minecraft:iron_sword": "textures/items/iron_sword",
+    "minecraft:golden_sword": "textures/items/gold_sword",
+    "minecraft:diamond_sword": "textures/items/diamond_sword",
+
+    // Tools - Shovels
+    "minecraft:iron_shovel": "textures/items/iron_shovel",
+    "minecraft:golden_shovel": "textures/items/gold_shovel",
+    "minecraft:diamond_shovel": "textures/items/diamond_shovel",
+
+    // Tools - Hoes
+    "minecraft:stone_hoe": "textures/items/stone_hoe",
+
+    // Armor - Helmets
+    "minecraft:leather_helmet": "textures/items/leather_helmet",
+    "minecraft:chainmail_helmet": "textures/items/chainmail_helmet",
+    "minecraft:iron_helmet": "textures/items/iron_helmet",
+    "minecraft:golden_helmet": "textures/items/gold_helmet",
+    "minecraft:diamond_helmet": "textures/items/diamond_helmet",
+
+    // Armor - Chestplates
+    "minecraft:leather_chestplate": "textures/items/leather_chestplate",
+    "minecraft:chainmail_chestplate": "textures/items/chainmail_chestplate",
+    "minecraft:iron_chestplate": "textures/items/iron_chestplate",
+    "minecraft:golden_chestplate": "textures/items/gold_chestplate",
+    "minecraft:diamond_chestplate": "textures/items/diamond_chestplate",
+
+    // Armor - Leggings
+    "minecraft:leather_leggings": "textures/items/leather_leggings",
+    "minecraft:chainmail_leggings": "textures/items/chainmail_leggings",
+    "minecraft:iron_leggings": "textures/items/iron_leggings",
+    "minecraft:golden_leggings": "textures/items/gold_leggings",
+    "minecraft:diamond_leggings": "textures/items/diamond_leggings",
+
+    // Armor - Boots
+    "minecraft:leather_boots": "textures/items/leather_boots",
+    "minecraft:chainmail_boots": "textures/items/chainmail_boots",
+    "minecraft:iron_boots": "textures/items/iron_boots",
+    "minecraft:golden_boots": "textures/items/gold_boots",
+    "minecraft:diamond_boots": "textures/items/diamond_boots",
+
+    // Food Items
+    "minecraft:apple": "textures/items/apple",
+    "minecraft:bread": "textures/items/bread",
+    "minecraft:cooked_beef": "textures/items/beef_cooked",
+    "minecraft:cooked_porkchop": "textures/items/porkchop_cooked",
+    "minecraft:cooked_chicken": "textures/items/chicken_cooked",
+    "minecraft:cooked_mutton": "textures/items/mutton_cooked",
+    "minecraft:golden_apple": "textures/items/apple_golden",
+    "minecraft:enchanted_golden_apple": "textures/items/apple_golden",
+    "minecraft:carrot": "textures/items/carrot",
+    "minecraft:potato": "textures/items/potato",
+    "minecraft:melon_slice": "textures/items/melon_slice",
+
+    // Block Items - Natural
+    "minecraft:grass_block": "textures/blocks/grass_side_carried",
+    "minecraft:moss_block": "textures/blocks/moss_block",
+    "minecraft:dirt_with_roots": "textures/blocks/dirt_with_roots",
+    "minecraft:dirt": "textures/blocks/dirt",
+    "minecraft:sand": "textures/blocks/sand",
+    "minecraft:red_sand": "textures/blocks/red_sand",
+    "minecraft:gravel": "textures/blocks/gravel",
+    "minecraft:clay": "textures/blocks/clay",
+
+    // Block Items - Stone variants
+    "minecraft:cobblestone": "textures/blocks/cobblestone",
+    "minecraft:stone": "textures/blocks/stone",
+    "minecraft:granite": "textures/blocks/stone_granite",
+    "minecraft:polished_granite": "textures/blocks/stone_granite_smooth",
+    "minecraft:diorite": "textures/blocks/stone_diorite",
+    "minecraft:polished_diorite": "textures/blocks/stone_diorite_smooth",
+    "minecraft:andesite": "textures/blocks/stone_andesite",
+    "minecraft:polished_andesite": "textures/blocks/stone_andesite_smooth",
+    "minecraft:blackstone": "textures/blocks/blackstone",
+    "minecraft:polished_blackstone": "textures/blocks/polished_blackstone",
+    "minecraft:deepslate": "textures/blocks/deepslate/deepslate",
+    "minecraft:polished_deepslate": "textures/blocks/deepslate/polished_deepslate",
+
+    // Block Items - Special
+    "minecraft:prismarine": "textures/blocks/prismarine_rough",
+    "minecraft:prismarine_bricks": "textures/blocks/prismarine_bricks",
+    "minecraft:dark_prismarine": "textures/blocks/prismarine_dark",
+    "minecraft:end_stone": "textures/blocks/end_stone",
+    "minecraft:end_stone_bricks": "textures/blocks/end_bricks",
+    "minecraft:sandstone": "textures/blocks/sandstone_normal",
+
+    // Glass - All 16 colors
+    "minecraft:glass": "textures/blocks/glass",
+    "minecraft:white_stained_glass": "textures/blocks/glass_white",
+    "minecraft:orange_stained_glass": "textures/blocks/glass_orange",
+    "minecraft:magenta_stained_glass": "textures/blocks/glass_magenta",
+    "minecraft:light_blue_stained_glass": "textures/blocks/glass_light_blue",
+    "minecraft:yellow_stained_glass": "textures/blocks/glass_yellow",
+    "minecraft:lime_stained_glass": "textures/blocks/glass_lime",
+    "minecraft:pink_stained_glass": "textures/blocks/glass_pink",
+    "minecraft:gray_stained_glass": "textures/blocks/glass_gray",
+    "minecraft:light_gray_stained_glass": "textures/blocks/glass_silver",
+    "minecraft:cyan_stained_glass": "textures/blocks/glass_cyan",
+    "minecraft:purple_stained_glass": "textures/blocks/glass_purple",
+    "minecraft:blue_stained_glass": "textures/blocks/glass_blue",
+    "minecraft:brown_stained_glass": "textures/blocks/glass_brown",
+    "minecraft:green_stained_glass": "textures/blocks/glass_green",
+    "minecraft:red_stained_glass": "textures/blocks/glass_red",
+    "minecraft:black_stained_glass": "textures/blocks/glass_black",
+
+    // Wool - All 16 colors
+    "minecraft:white_wool": "textures/blocks/wool_colored_white",
+    "minecraft:orange_wool": "textures/blocks/wool_colored_orange",
+    "minecraft:magenta_wool": "textures/blocks/wool_colored_magenta",
+    "minecraft:light_blue_wool": "textures/blocks/wool_colored_light_blue",
+    "minecraft:yellow_wool": "textures/blocks/wool_colored_yellow",
+    "minecraft:lime_wool": "textures/blocks/wool_colored_lime",
+    "minecraft:pink_wool": "textures/blocks/wool_colored_pink",
+    "minecraft:gray_wool": "textures/blocks/wool_colored_gray",
+    "minecraft:light_gray_wool": "textures/blocks/wool_colored_silver",
+    "minecraft:cyan_wool": "textures/blocks/wool_colored_cyan",
+    "minecraft:purple_wool": "textures/blocks/wool_colored_purple",
+    "minecraft:blue_wool": "textures/blocks/wool_colored_blue",
+    "minecraft:brown_wool": "textures/blocks/wool_colored_brown",
+    "minecraft:green_wool": "textures/blocks/wool_colored_green",
+    "minecraft:red_wool": "textures/blocks/wool_colored_red",
+    "minecraft:black_wool": "textures/blocks/wool_colored_black",
+
+    // Wood Items - Logs
+    "minecraft:oak_log": "textures/blocks/log_oak",
+    "minecraft:birch_log": "textures/blocks/log_birch",
+    "minecraft:spruce_log": "textures/blocks/log_spruce",
+    "minecraft:jungle_log": "textures/blocks/log_jungle",
+    "minecraft:acacia_log": "textures/blocks/log_acacia",
+    "minecraft:dark_oak_log": "textures/blocks/log_big_oak",
+    "minecraft:mangrove_log": "textures/blocks/mangrove_log_side",
+    "minecraft:cherry_log": "textures/blocks/cherry_log_side",
+    "minecraft:oak_planks": "textures/blocks/planks_oak",
+
+    // Furniture Items
+    "minecraft:crafting_table": "textures/blocks/crafting_table_front",
+    "minecraft:furnace": "textures/blocks/furnace_front_on",
+    "minecraft:blast_furnace": "textures/blocks/blast_furnace_front",
+    "minecraft:smoker": "textures/blocks/smoker_front",
+    "minecraft:cartography_table": "textures/blocks/cartography_table_side",
+    "minecraft:brewing_stand": "textures/blocks/brewing_stand_base",
+    "minecraft:composter": "textures/blocks/composter_side",
+    "minecraft:barrel": "textures/blocks/barrel_side",
+    "minecraft:fletching_table": "textures/blocks/fletching_table_front",
+    "minecraft:cauldron": "textures/items/cauldron",
+    "minecraft:lectern": "textures/blocks/lectern_front",
+    "minecraft:stonecutter": "textures/blocks/stonecutter_top",
+    "minecraft:loom": "textures/blocks/loom_front",
+    "minecraft:smithing_table": "textures/blocks/smithing_table_top",
+    "minecraft:grindstone": "textures/blocks/grindstone_side",
+    "minecraft:anvil": "textures/blocks/anvil_top",
+    "minecraft:bookshelf": "textures/blocks/bookshelf",
+    "minecraft:note_block": "textures/blocks/noteblock",
+    "minecraft:enchanting_table": "textures/blocks/enchanting_table_side",
+    "minecraft:chest": "textures/blocks/chest_front",
+    "minecraft:shulker_box": "textures/blocks/shulker_top_undyed",
+    "minecraft:torch": "textures/blocks/torch_on",
+    "minecraft:end_rod": "textures/blocks/end_rod",
+
+    // Farm Items
+    "minecraft:wheat_seeds": "textures/items/seeds_wheat",
+    "minecraft:melon_seeds": "textures/items/seeds_melon",
+    "minecraft:beetroot_seeds": "textures/items/seeds_beetroot",
+    "minecraft:wheat": "textures/items/wheat",
+    "minecraft:beetroot": "textures/items/beetroot",
+    "minecraft:sugar_cane": "textures/items/reeds",
+    "minecraft:bone_meal": "textures/items/bone_meal",
+    "minecraft:pumpkin": "textures/blocks/pumpkin_face_off",
+
+    // Ore Items
+    "minecraft:coal": "textures/items/coal",
+    "minecraft:copper_ingot": "textures/items/copper_ingot",
+    "minecraft:iron_ingot": "textures/items/iron_ingot",
+    "minecraft:gold_ingot": "textures/items/gold_ingot",
+    "minecraft:emerald": "textures/items/emerald",
+    "minecraft:diamond": "textures/items/diamond",
+    "minecraft:netherite_ingot": "textures/items/netherite_ingot",
+    "minecraft:redstone": "textures/items/redstone_dust",
+    "minecraft:lapis_lazuli": "textures/items/lapis_lazuli",
+    "minecraft:quartz": "textures/items/quartz",
+    "minecraft:netherite_scrap": "textures/items/netherite_scrap",
+
+    // Mob Drops
+    "minecraft:leather": "textures/items/leather",
+    "minecraft:rotten_flesh": "textures/items/rotten_flesh",
+    "minecraft:bone": "textures/items/bone",
+    "minecraft:arrow": "textures/items/arrow",
+    "minecraft:string": "textures/items/string",
+    "minecraft:spider_eye": "textures/items/spider_eye",
+    "minecraft:gunpowder": "textures/items/gunpowder",
+    "minecraft:ender_pearl": "textures/items/ender_pearl",
+    "minecraft:blaze_rod": "textures/items/blaze_rod",
+    "minecraft:ghast_tear": "textures/items/ghast_tear",
+    "minecraft:slime_ball": "textures/items/slimeball",
+    "minecraft:magma_cream": "textures/items/magma_cream",
+    "minecraft:phantom_membrane": "textures/items/phantom_membrane",
+    "minecraft:nautilus_shell": "textures/items/nautilus_shell",
+    "minecraft:shulker_shell": "textures/items/shulker_shell",
+    "minecraft:echo_shard": "textures/items/echo_shard",
+    "minecraft:scute": "textures/items/turtle_shell_piece",
+    "minecraft:rabbit_hide": "textures/items/rabbit_hide",
+    "minecraft:feather": "textures/items/feather",
+    "minecraft:egg": "textures/items/egg"
+};

@@ -1,0 +1,14 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"takut_idgitaf": {
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/lagu/Takut",
+					"volume": 10
+				}
+			]
+		}
+	}
+}

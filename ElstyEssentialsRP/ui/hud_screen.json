@@ -1,0 +1,68 @@
+{
+  "namespace": "hud",
+  "hud_title_text": {
+    "type": "stack_panel",
+    "size": [ "110px", "65%" ],
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "offset": [ -3, 0 ],
+    "alpha": 1.0,
+    "orientation": "vertical",
+    "controls": [
+      {
+        "sidebar": {
+          "type": "panel",
+          "size": [ "100%", "100%" ],
+          "controls": [
+            {
+              "title_background": {
+                "type": "image",
+                "size": [ "100%", "100%" ],
+                "texture": "textures/hud/background",
+                "alpha": 1.0,
+                "controls": [
+                  {
+                    "logo_kustom": {
+                      "type": "image",
+                      "texture": "textures/hud/logo.png",
+                      "size": [ 128, 128 ],
+                      "anchor_from": "top_middle",
+                      "anchor_to": "top_middle",
+                      "offset": [ 0, -45 ],
+                      "layer": 2,
+                      "alpha": 1.0
+                    }
+                  },
+                  {
+                    "title": {
+                      "type": "label",
+                      "text": "$title_text",
+                      "anchor_from": "top_middle",
+                      "anchor_to": "top_middle",
+                      "offset": [ 0, 35 ],
+                      "color": "$tool_tip_text",
+                      "text_alignment": "left",
+                      "layer": 2,
+                      "localize": false,
+                      "font_size": "medium",
+                      "alpha": 1.0
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  
+    "anim_chat_bg_alpha": {
+    "anim_type": "alpha",
+    "easing": "in_quart",
+    "destroy_at_end": "chat_grid_item",
+    "duration": 1,
+    "from": 0.5,
+    "to": 0
+  }
+}
